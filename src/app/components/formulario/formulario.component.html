@@ -1,0 +1,26 @@
+<div class="formulario">
+    <h1>Nueva Noticia actividad5_v2</h1>
+    <div class="formulario-cont">
+      <label for="name">Título</label>
+      <input type="text" placeholder="Introduce el título" [(ngModel)]="newNews.title">
+    </div>
+
+    <div class="formulario-cont">
+      <label for="image">Imagen</label>
+      <input type="text" placeholder="Introduce la URL de la imagen" [(ngModel)]="newNews.image">
+    </div>
+
+    <div class="formulario-cont">
+      <label for="text">Cuerpo</label>
+      <input type="text" placeholder="Introduce el texto" [(ngModel)]="newNews.text">
+    </div>
+
+    <div class="formulario-cont">
+      <label for="date">Fecha de publicación</label >
+      <input type="date" [(ngModel)]="newNews.date">
+    </div>
+
+    <button (click)="saveNews()" class="button">Publicar</button>
+</div>
+
+
