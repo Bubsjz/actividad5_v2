@@ -19,9 +19,8 @@ export class AppComponent {
   ]
 
   onNewsIssued(event: INews) : void {
-    console.log(event)          //hacemos console.log para
+    //console.log(event)         
     this.arrayNews.push(event)
-
   }
 
 

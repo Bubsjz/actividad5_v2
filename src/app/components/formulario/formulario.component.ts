@@ -21,7 +21,7 @@ export class FormularioComponent {
   @Output() newsIssued : EventEmitter<INews> = new EventEmitter()
 
   saveNews() {
-    console.log(this.newNews)
+    //console.log(this.newNews)
     //console.log(this.arrayProducts)
 
     if (this.newNews.title !== "" && this.newNews.image !== "" && this.newNews.text !== "" && this.newNews.date !== "") {
